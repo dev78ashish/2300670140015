@@ -5,7 +5,7 @@ const app = express();
 const port = 9876;
 
 const windowSize = 10;
-let storedNumbers = [];
+let storedNumbers = [];  
 
 const API_URLS = {
     'p': 'http://20.244.56.144/test/primes',
